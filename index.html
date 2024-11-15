@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skin Health Assessment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Skin Health Assessment</h1>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <div class="content">
+      <h2>Evaluate Your Skin Health</h2>
+      <p>Use our skincare tool to assess your skin for common concerns such as dark circles, wrinkles, and spots.</p>
+
+      <!-- Buttons to control the skincare module -->
+      <div class="button-group">
+        <button onclick="startAssessment()">Start Skin Health Assessment</button>
+        <button onclick="closeAssessment()">Close Assessment</button>
+      </div>
+
+      <!-- Skin Health Module Container -->
+      <div id="YMK-module"></div>
+
+      <!-- Result Display Area -->
+      <div id="result">
+        <h3>Assessment Results</h3>
+        <p>Here, we will display your skin's health score and provide feedback on dark circles, wrinkles, and spots.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Designed by Kartik Khandal &copy; 2024</p>
+  </footer>
+
+  <!-- Include the PerfectCorp SDK -->
+  <script src="script.js"></script>
+</body>
+
+</html>
